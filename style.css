@@ -1,0 +1,835 @@
+
+body{
+    margin: 5px;
+    background-color: #5FE0FD;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2DB1CF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+
+header div p{
+    font-family: 'Trebuchet MS';
+    color:#ffffff;
+    font-size: 17px;
+}
+
+header div h1 a{
+    display:flex;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sous-title{
+    background-color: #01D0FF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50px;
+}
+
+.sous-title nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sous-title-ul1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 50px;
+}
+
+.undul{
+    font-family: 'Trebuchet MS';
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.undul a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.undul-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    width: 200px;
+}
+
+.undul-special a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+}
+
+#drop-2-ul li{
+    list-style-type: none;
+}
+
+.undul-special a{
+    display: block;
+}
+
+#drop-2-ul a{
+    color: #01D0FF;
+}
+
+#drop-2-ul li{
+    display: none;
+    background-color: #ffffff;
+  border-radius: 15px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.undul-special:hover{
+    margin-top: 130px;
+}
+
+#drop-2-ul li:hover{
+    background-color: blue;
+    transition: 0.1s;
+}
+
+.undul-special:hover #drop-2-ul li{
+    display: block;
+    transition: 1s;
+}
+
+/* contenu */
+
+.content1{
+    display: flex;
+    align-items: center;
+}
+
+.content1 img{
+    width: 600px;
+    height: 600px;
+}
+
+.rdv{
+    color: blue;
+    text-decoration: none;
+    background: linear-gradient(gold,yellow);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.rdv:hover{
+    background: linear-gradient(yellow,gold);
+    
+}
+
+.im{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Trebuchet MS";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* infos */
+
+.separation{
+    width: 94%; 
+    margin: 3%;
+    height: 5px;
+    border-radius: 5px;
+    background-color:  #2DB1CF;
+}
+
+#infos{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 75px;
+}
+
+.sepa{
+    width: 100%;
+    background-color: #0378FD;
+    height: 2px;
+}
+
+.smen1,.smen2,.smen3{
+  display: flex;
+  align-items: center;
+}
+
+.men1,.men2,.men3{
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C1C1C;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 4px solid #0378FD;
+    width: 300px;
+    height: 150px;
+}
+
+/* soins */
+
+.tt{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+}
+
+.soi{
+    display: flex;
+}
+
+.serv{
+    display: flex;
+}
+
+.serv > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #322D2D;
+    border: 4px solid #0378FD;
+    margin: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 250px;
+    color: #ffffff;
+}
+
+.adde{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cov div{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* a propos */
+#about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS';
+  background-color: rgb(0, 119, 255);
+  border-radius: 15px;
+}
+
+.ttttitre{
+    background-color: #0378FD;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    border: 5px solid gold;
+}
+
+.ttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.und{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.und div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+    width: 30%;
+    font-size: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.und > div:hover{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.content{
+    margin: 15px;
+}
+
+/* rendez vous */
+#appointment{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2DB1CF;
+    border-radius: 40px;
+}
+
+.log form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color:#322D2D;
+    border-radius: 25px;
+    border: 20px;
+}
+
+.log{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log h2{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.log form input{
+    width: 90%;
+   margin-bottom: 2.5%;
+   margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    font-size: 25px;
+    border: 4px solid #0378FD;
+}
+
+
+.ima img{
+    border-radius: 50px;
+    width: 100%;
+    height: 750px;
+}
+
+.ima{
+    width: 55%;
+    height: 750px;
+    border: 10px solid white;
+    margin: 2%;
+    border-radius: 50px;
+}
+
+.soum{
+    background-color: #0378FD;
+    border: 3px solid #ffffff;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* applications */
+
+.titreapp{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.contentapp{
+    display: flex;
+    font-family: 'Trebuchet MS';
+}
+
+.souscontentapp1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.souscontentapp1 img{
+    border-radius: 25px;
+    border: 10px solid #ffffff;
+}
+
+.souscontentapp2{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+}
+
+.souscontentapp2 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.souscontentapp2 > div h1{
+    font-size: 50px;
+}
+
+.souscontentapp2 h3{
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.souscontentapp2 > div > div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.souscontentapp2 > div > div a{
+    background-color: #ffffff;
+    border: 3px solid #0378FD;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:30px;
+    padding-bottom:30px;
+    color: #0378FD;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.souscontentapp2 > div > div a:hover{
+    transition: 0.2s;
+    background-color: #dddddd;
+    border: 3px solid #0378FD;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:30px;
+    padding-bottom:30px;
+    color: #0378FD;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* spé */
+
+#doctors{
+    font-family: 'Trebuchet MS';
+}
+
+.sousdoctors{
+    display: flex;
+}
+
+.dctitle{
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.sousdoctors img{
+    width: 80%;
+    margin: 15px;
+}
+
+.sousdoctors > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+}
+
+.sousdoctors > div > div{
+    margin: 25px;
+    width: 80%;
+    border-radius: 20px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* news */
+
+.ti{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.tit{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.all{
+    display: flex;
+}
+
+.all > div{
+    border: 4px solid #ffffff;
+    background-color: #322D2D;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all > div .e{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all > div img{
+    width: 80%;
+}
+
+.all > div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all > div .a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.pspan{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    margin: 15px;
+}
+
+.e a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0378FD;
+    padding: 15px;
+}
+
+.e a:hover{
+    transition: 0.2s;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #056be0;
+    padding: 15px;
+}
+
+.e p{
+    width: 80%;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+
+/* contact AVANT DERNIERE PARTIE AAHAHHAHAHHAHAHHAHHAHAH */
+
+
+#contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#contact div {
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+#contact form{
+    background-color: #322D2D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 5px solid #ffffff;
+}
+
+.td{
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+#contact input{
+    height: 45px;
+    width: 45%;
+    font-size: 20px;
+    border: 4px solid #0378FD;
+}
+
+#contact textarea{
+    font-size: 20px;
+    width: 80%;
+    height: 90px;
+    border: 4px solid #0378FD;
+}
+
+#contact button{
+    background-color: #0378FD;
+    border: 3px solid #ffffff;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS';
+    color: #ffffff;
+}
+
+#contact button:hover{
+    transition: 0.2s;
+    background-color: #0464d1;
+    border: 3px solid #e0dede;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS';
+    color: #ffffff;
+}
+
+.didiv,.dididiv{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+
+/* DERNIERE PARTIE DE MES COUILLES 🤣🤣🤣🤣🤣🤣🤣🤣*/
+
+.yeah{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#facts{
+    background-color: #0378FD;
+    border: 5px solid #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#facts h1{
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    margin: 15px;
+}
+
+.num{
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    text-decoration: underline;
+}
+
+.num h3{
+ margin: 15px;
+}
+
+.temoi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    background-color: #322D2D;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid #ffffff;
+    margin: 50px;
+}
+
+.temoi > p{
+    margin: 15px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+}
+
+
+.temoi > div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.temoi > div img{
+    width: 80%;
+}
+
+.temoi > div h5{
+    margin: 5px;
+}
+
+footer{
+    background-color: #000;
+    margin: 20px;
+  
+}
+
+.genfoot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.genfoot > div{
+    margin: 20px;
+}
+
+.copyr{
+    color: #000;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+.gravidiv{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #056be0;
+    border: 3px solid #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gravizen{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+
+.mai{
+    color: #4f55ff;
+    background: linear-gradient(gold,yellow);
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border: 3px solid #ffffff;
+}   
+
+.numtel{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navdiv,.meddiv{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #056be0;
+    border: 3px solid #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.naviti{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navdiv ul li,.meddiv ul li{
+    list-style-type: none;
+    background: linear-gradient(gold,yellow);
+    border: 3px solid #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.navdiv ul li a,.meddiv ul li a{
+    text-decoration: none;
+    color: #4f55ff;
+    font-family: 'Trebuchet MS';
+}
+
+.d{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
